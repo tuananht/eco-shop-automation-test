@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalVariableEntities>
+    <GlobalVariableEntity>
+        <description></description>
+        <initValue>'tai.nguyen+3@katalon.com'</initValue>
+        <name>username</name>
+    </GlobalVariableEntity>
+    <GlobalVariableEntity>
+        <description></description>
+        <initValue>'1qaz@Wsx'</initValue>
+        <name>password</name>
+    </GlobalVariableEntity>
+    <GlobalVariableEntity>
+        <description></description>
+        <initValue>'https://eco.aut.katalon.com'</initValue>
+        <name>application_domain</name>
+    </GlobalVariableEntity>
+    <defaultProfile>True</defaultProfile>
+    <description></description>
+    <name>Basic Customer</name>
+    <tag></tag>
+</GlobalVariableEntities>

@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to Page signin",
+        "step 2: Login at Page signin --> navigate to Page home",
+        "step 3: At Page shop click on div chamaedorea elegans --> navigate to Page product chamaedorea elegans",
+        "step 4: At Page product chamaedorea elegans click on button order",
+        "step 5: At Page product chamaedorea elegans click on button basket toggle",
+        "step 6: At Page product chamaedorea elegans click on button basket checkouts --> navigate to Page checkout step1",
+        "step 7: At Page checkout step1 click on button next step --> navigate to Page checkout step2",
+        "step 8: At Page checkout step2 input on input fullname",
+        "step 9: At Page checkout step2 input on input email",
+        "step 10: At Page checkout step2 input on input address",
+        "step 11: At Page checkout step2 input on input phone",
+        "step 12: At Page checkout step2 click on label is international",
+        "step 13: At Page checkout step2 click on button next step --> navigate to Page checkout step3",
+        "step 14: At Page checkout step3 click on label cash",
+        "step 15: At Page checkout step3 click on button confirm --> navigate to Page home",
+        "step 16: Add visual checkpoint at Page home"
+    ]
+}
