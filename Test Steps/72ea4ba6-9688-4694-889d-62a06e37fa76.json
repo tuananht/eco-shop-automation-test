@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home login > navigate to Page home",
+        "step 3: At Page home, click on hyperlink shop > navigate to Page producs",
+        "step 4: At Page producs, click on button go back > navigate to Page shop",
+        "step 5: At Page shop, click on div object",
+        "step 6: At Page shop, click on div object > navigate to Page product",
+        "step 7: Add visual checkpoint at Page product"
+    ]
+}
