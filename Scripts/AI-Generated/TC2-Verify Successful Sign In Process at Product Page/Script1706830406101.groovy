@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import katalon.truetest.TrueTestScripts
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -33,7 +33,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/hyperlink_sign_in'
 
 'Step 6: Add visual checkpoint at Page signin'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Sign in Page after Adding Item to Basket_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Sign In Process at Product Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
