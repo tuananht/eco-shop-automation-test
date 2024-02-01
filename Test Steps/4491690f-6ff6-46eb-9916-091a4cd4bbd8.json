@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink sign in > navigate to Page signin",
+        "step 3: At Page signin, input on input email",
+        "step 4: At Page signin, input on input password",
+        "step 5: At Page signin, click on button sign in > navigate to Page home",
+        "step 6: At Page home, click on hyperlink plant now > navigate to Page shop",
+        "step 7: At Page shop, click on div object > navigate to Page product",
+        "step 8: At Page product, click on button add to basket",
+        "step 9: At Page product, click on svg object",
+        "step 10: At Page product, click on button check out > navigate to Page checkout",
+        "step 11: At Page checkout, click on button next step",
+        "step 12: At Page checkout, input on input fullname",
+        "step 13: At Page checkout, input on input email",
+        "step 14: At Page checkout, input on input address",
+        "step 15: At Page checkout, input on input object",
+        "step 16: At Page checkout, click on input object",
+        "step 17: At Page checkout, click on button next step",
+        "step 18: Add visual checkpoint at Page checkout"
+    ]
+}
