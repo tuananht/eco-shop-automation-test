@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link 'Sign Up' -> Navigate to page 'signup'",
+        "step 3: Login",
+        "step 4: Click on link 'Shop' -> Navigate to page 'shop'",
+        "step 5: Hover over div",
+        "step 6: Click on button 'Add to basket'",
+        "step 7: Click on span",
+        "step 8: Click on button",
+        "step 9: Select item, add to basket, and proceed to checkout",
+        "step 10: Fill checkout details, confirm order, and complete purchase"
+    ]
+}

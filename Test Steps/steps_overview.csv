@@ -1,17 +1,18 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Confirm Order after Adding Item to Shopping Basket,Navigate to the home page and sign in. Proceed to the shop page and add an item to the basket. Complete the checkout process by filling in the required details and confirming the order.,"Step 1: Navigate to https://eco.aut.katalon.com/
+1,Verify Successful Purchase Flow from Product Selection to Checkout,"Navigate to the homepage, sign in, select a product, add it to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
 Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
 Step 3: Login
 Step 4: Click on link 'Shop' -> Navigate to page 'shop'
 Step 5: Hover over div
-Step 6: Click on header  -> Navigate to page 'product/*'
-Step 7: Click on div
-Step 8: Click on div 'react-select-2-option-0'
-Step 9: Click on div
-Step 10: Click on button 'Add To Basket'
-Step 11: Click on span
-Step 12: Click on button 'CHECK OUT'
-Step 13: Fill checkout details and confirm order
+Step 6: Click on header
+Step 7: Select item, add to basket, and proceed to checkout
+	- Step 1: Click on div
+	- Step 2: Click on div 'react-select-2-option-0'
+	- Step 3: Click on div
+	- Step 4: Click on button 'Add To Basket'
+	- Step 5: Click on span
+	- Step 6: Click on button 'CHECK OUT'
+Step 8: Fill checkout details, confirm order, and complete purchase
 	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input field 'fullname'
 	- Step 3: Enter input value in input field 'email'
@@ -27,23 +28,130 @@ Step 13: Fill checkout details and confirm order
 	- Step 13: Enter input value in input field 'ccv'
 	- Step 14: Click on button 'Confirm'
 ",High
-2,Complete Checkout Process by Adding Multiple Items to Shopping Basket,Navigate to the home page and sign in. Proceed to the shop page and add multiple items to the basket. Complete the checkout process by filling in the required details and confirming the order.,"Step 1: Navigate to https://eco.aut.katalon.com/
+2,Verify Checkout Process with Single Item in Basket,"Navigate to the homepage, sign in, browse the shop, add an item to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+Step 3: Login
+Step 4: Browse shop, add item to basket, and checkout
+	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button 'CHECK OUT'
+Step 5: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
+",Medium
+3,Verify Purchase Flow with Search and Add to Basket Functionality,"Navigate to the homepage, sign in, search for an item, add it to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+Step 3: Login -> Navigate to page 'search/*'
+Step 4: Hover over div
+Step 5: Enter input value in input field
+Step 6: Click on button 'Add to basket'
+Step 7: Click on span
+Step 8: Click on button 'CHECK OUT'
+Step 9: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
+",Low
+6,Verify Purchase Flow from Product Search to Checkout,"Navigate to the homepage, sign in, search for a product, select it, add it to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+Step 3: Login -> Navigate to page 'search/*'
+Step 4: Hover over div
+Step 5: Enter input value in input field
+Step 6: Click on header
+Step 7: Select item, add to basket, and proceed to checkout
+	- Step 1: Click on div
+	- Step 2: Click on div 'react-select-2-option-0'
+	- Step 3: Click on div
+	- Step 4: Click on button 'Add To Basket'
+	- Step 5: Click on span
+	- Step 6: Click on button 'CHECK OUT'
+Step 8: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
+",Low
+4,Verify Checkout Process with Multiple Items in Basket,"Navigate to the homepage, sign in, browse the shop, add items to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+Step 3: Login
+Step 4: Browse shop, add item to basket, and proceed to checkout
+	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button
+Step 5: Select item, add to basket, and proceed to checkout
+	- Step 1: Click on span
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button 'CHECK OUT'
+Step 6: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
+",Low
+5,Verify Purchase Flow with Multiple Clicks to Add Item to Basket,"Navigate to the homepage, sign in, browse the shop, add an item to the basket through multiple clicks, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
 Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
 Step 3: Login
 Step 4: Click on link 'Shop' -> Navigate to page 'shop'
 Step 5: Hover over div
 Step 6: Click on button 'Add to basket'
 Step 7: Click on span
-Step 8: Click on image
-Step 9: Click on image
-Step 10: Click on span
-Step 11: Click on span
-Step 12: Click on button
-Step 13: Click on button
-Step 14: Click on span
-Step 15: Click on span
-Step 16: Click on button 'CHECK OUT'
-Step 17: Fill checkout details and confirm order
+Step 8: Click on span
+Step 9: Select item, add to basket, and proceed to checkout
+	- Step 1: Click on span
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button 'CHECK OUT'
+Step 10: Fill checkout details, confirm order, and complete purchase
 	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input field 'fullname'
 	- Step 3: Enter input value in input field 'email'
@@ -59,24 +167,71 @@ Step 17: Fill checkout details and confirm order
 	- Step 13: Enter input value in input field 'ccv'
 	- Step 14: Click on button 'Confirm'
 ",Trivial
-4,Proceed to Checkout after Adding Item to Shopping Basket,Navigate to the home page and sign in. Proceed to the shop page and add an item to the basket. Proceed to the checkout page and input the address details.,"Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+7,Verify Successful Purchase Flow after Sign Up,"Navigate to the homepage, sign up, login, browse the shop, add an item to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign Up' -> Navigate to page 'signup'
 Step 3: Login
 Step 4: Click on link 'Shop' -> Navigate to page 'shop'
 Step 5: Hover over div
 Step 6: Click on button 'Add to basket'
 Step 7: Click on span
 Step 8: Click on button
-Step 9: Click on span
-Step 10: Add item to basket and proceed to checkout
-	- Step 1: Hover over div
-	- Step 2: Click on button 'Add to basket'
-	- Step 3: Click on span
-	- Step 4: Click on button 'CHECK OUT' -> Navigate to page 'checkout/step1'
-	- Step 5: Click on button 'Next Step'
-Step 11: Enter input value in input field 'address'
+Step 9: Select item, add to basket, and proceed to checkout
+	- Step 1: Click on span
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button 'CHECK OUT'
+Step 10: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
 ",Trivial
-3,Confirm Order after Adding Item to Shopping Basket and Signing In,"Navigate to the home page and shop for items. Add an item to the basket and proceed to checkout. Sign in, fill in the required details, and confirm the order.","Step 1: Navigate to https://eco.aut.katalon.com/
+8,Verify Purchase Flow with Review Order Step,"Navigate to the homepage, sign in, browse the shop, add items to the basket, review the order, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+Step 3: Login
+Step 4: Browse shop, add item to basket, and proceed to checkout
+	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button
+Step 5: Select items, review order, and proceed to checkout
+	- Step 1: Click on image
+	- Step 2: Click on button
+	- Step 3: Click on button
+	- Step 4: Click on span
+	- Step 5: Click on span
+	- Step 6: Click on span
+	- Step 7: Click on span
+	- Step 8: Click on button 'CHECK OUT'
+Step 6: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
+",Trivial
+9,Verify Checkout Process with Sign In During Checkout,"Navigate to the homepage, go to the shop, add an item to the basket, proceed to checkout, sign in, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
 Step 2: Click on link 'Shop' -> Navigate to page 'shop'
 Step 3: Hover over div
 Step 4: Click on button 'Add to basket'
@@ -84,12 +239,46 @@ Step 5: Click on span
 Step 6: Click on button 'CHECK OUT'
 Step 7: Click on button 'Sign in to checkout' -> Navigate to page 'signin'
 Step 8: Login
-Step 9: Click on link 'Shop' -> Navigate to page 'shop'
-Step 10: Hover over div
-Step 11: Click on button 'Add to basket'
-Step 12: Click on span
-Step 13: Click on button 'CHECK OUT'
-Step 14: Fill checkout details and confirm order
+Step 9: Browse shop, add item to basket, and checkout
+	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
+	- Step 2: Hover over div
+	- Step 3: Click on button 'Add to basket'
+	- Step 4: Click on span
+	- Step 5: Click on button 'CHECK OUT'
+Step 10: Fill checkout details, confirm order, and complete purchase
+	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input field 'fullname'
+	- Step 3: Enter input value in input field 'email'
+	- Step 4: Enter input value in input field 'address'
+	- Step 5: Enter input value in input field
+	- Step 6: Click on header
+	- Step 7: Click on input field
+	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
+	- Step 9: Click on div
+	- Step 10: Click on input field
+	- Step 11: Enter input value in input field 'name'
+	- Step 12: Enter input value in input field 'cardnumber'
+	- Step 13: Enter input value in input field 'ccv'
+	- Step 14: Click on button 'Confirm'
+",Trivial
+10,Verify Purchase Flow with Multiple Items and Review Step,"Navigate to the homepage, sign in, go to the shop, add items to the basket, proceed to checkout, review the order, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+Step 3: Login
+Step 4: Click on link 'Shop' -> Navigate to page 'shop'
+Step 5: Hover over div
+Step 6: Click on button 'Add to basket'
+Step 7: Click on span
+Step 8: Click on div
+Step 9: Select items, review order, and proceed to checkout
+	- Step 1: Click on image
+	- Step 2: Click on button
+	- Step 3: Click on button
+	- Step 4: Click on span
+	- Step 5: Click on span
+	- Step 6: Click on span
+	- Step 7: Click on span
+	- Step 8: Click on button 'CHECK OUT'
+Step 10: Fill checkout details, confirm order, and complete purchase
 	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input field 'fullname'
 	- Step 3: Enter input value in input field 'email'
