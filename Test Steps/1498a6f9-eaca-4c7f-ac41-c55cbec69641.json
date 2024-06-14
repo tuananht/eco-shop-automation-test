@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link signIn -> Navigate to page 'signin'",
+        "step 3: Login",
+        "step 4: Click on link shop2 -> Navigate to page 'shop'",
+        "step 5: Hover over div herringbonePineTreeIndoorPlants",
+        "step 6: Click on button addToBasket",
+        "step 7: Click on span navigationButton",
+        "step 8: Click on button minus",
+        "step 9: Click on span plus",
+        "step 10: Click on span plus",
+        "step 11: Click on button minus",
+        "step 12: Click on button minus",
+        "step 13: Click on span minus",
+        "step 14: Click on span minusButton",
+        "step 15: Click on span minusButton",
+        "step 16: Click on input fullName",
+        "step 17: Complete checkout process with credit card payment"
+    ]
+}

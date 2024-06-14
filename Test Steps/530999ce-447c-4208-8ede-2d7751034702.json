@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link signIn -> Navigate to page 'signin'",
+        "step 3: Login",
+        "step 4: Click on link shop2 -> Navigate to page 'shop'",
+        "step 5: Hover over div chamaedoreaElegansIndoorPlants",
+        "step 6: Click on header chamaedoreaElegans",
+        "step 7: Select size, add to basket, and proceed to checkout",
+        "step 8: Complete checkout process with credit card payment"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link shop2 -> Navigate to page 'shop'",
+        "step 3: Hover over div herringbonePineTreeIndoorPlants",
+        "step 4: Click on button addToBasket",
+        "step 5: Click on span navigationButton",
+        "step 6: Click on input fullName",
+        "step 7: Click on button signInToCheckout -> Navigate to page 'signin'",
+        "step 8: Login",
+        "step 9: Add indoor plants to basket and proceed to checkout",
+        "step 10: Complete checkout process with credit card payment"
+    ]
+}

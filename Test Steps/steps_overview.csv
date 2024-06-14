@@ -1,296 +1,206 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Purchase Flow from Product Selection to Checkout,"Navigate to the homepage, sign in, select a product, add it to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+1,Verify Checkout Process for Indoor Plants Selection,"Navigate to the home page, sign in, select indoor plants, proceed to checkout, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link signIn -> Navigate to page 'signin'
 Step 3: Login
-Step 4: Click on link 'Shop' -> Navigate to page 'shop'
-Step 5: Hover over div
-Step 6: Click on header
-Step 7: Select item, add to basket, and proceed to checkout
-	- Step 1: Click on div
-	- Step 2: Click on div 'react-select-2-option-0'
-	- Step 3: Click on div
-	- Step 4: Click on button 'Add To Basket'
-	- Step 5: Click on span
-	- Step 6: Click on button 'CHECK OUT'
-Step 8: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 4: Click on link shop2 -> Navigate to page 'shop'
+Step 5: Hover over div chamaedoreaElegansIndoorPlants
+Step 6: Click on header chamaedoreaElegans
+Step 7: Select size, add to basket, and proceed to checkout
+	- Step 1: Click on div selectSize
+	- Step 2: Click on div object
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on button addToBasket
+	- Step 5: Click on span navigationButton
+	- Step 6: Click on input fullName
+Step 8: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",High
-2,Verify Checkout Process with Single Item in Basket,"Navigate to the homepage, sign in, browse the shop, add an item to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+2,Verify Checkout Process for Adding Plants to Basket,"Navigate to the home page, sign in, add indoor plants to the basket, proceed to checkout, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link signIn -> Navigate to page 'signin'
 Step 3: Login
-Step 4: Browse shop, add item to basket, and checkout
-	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button 'CHECK OUT'
-Step 5: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 4: Add indoor plants to basket and proceed to checkout
+	- Step 1: Click on link shop2 -> Navigate to page 'shop'
+	- Step 2: Hover over div herringbonePineTreeIndoorPlants
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on span navigationButton
+	- Step 5: Click on input fullName
+Step 5: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",Medium
-3,Verify Purchase Flow with Search and Add to Basket Functionality,"Navigate to the homepage, sign in, search for an item, add it to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+6,Verify Search and Checkout Process for Selected Product,"Navigate to the home page, sign in, search for a product, select size, add to basket, proceed to checkout, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link signIn -> Navigate to page 'signin'
 Step 3: Login -> Navigate to page 'search/*'
-Step 4: Hover over div
-Step 5: Enter input value in input field
-Step 6: Click on button 'Add to basket'
-Step 7: Click on span
-Step 8: Click on button 'CHECK OUT'
-Step 9: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 4: Hover over div productDetails
+Step 5: Click on header productName
+Step 6: Enter input value in input searchProduct
+Step 7: Select size, add to basket, and proceed to checkout
+	- Step 1: Click on div selectSize
+	- Step 2: Click on div object
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on button addToBasket
+	- Step 5: Click on span navigationButton
+	- Step 6: Click on input fullName
+Step 8: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",Low
-6,Verify Purchase Flow from Product Search to Checkout,"Navigate to the homepage, sign in, search for a product, select it, add it to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
-Step 3: Login -> Navigate to page 'search/*'
-Step 4: Hover over div
-Step 5: Enter input value in input field
-Step 6: Click on header
-Step 7: Select item, add to basket, and proceed to checkout
-	- Step 1: Click on div
-	- Step 2: Click on div 'react-select-2-option-0'
-	- Step 3: Click on div
-	- Step 4: Click on button 'Add To Basket'
-	- Step 5: Click on span
-	- Step 6: Click on button 'CHECK OUT'
-Step 8: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
-",Low
-4,Verify Checkout Process with Multiple Items in Basket,"Navigate to the homepage, sign in, browse the shop, add items to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+3,Verify Checkout Process for Multiple Indoor Plants Selection,"Navigate to the home page, sign in, select multiple indoor plants, adjust quantities, proceed to checkout, enter full name, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link signIn -> Navigate to page 'signin'
 Step 3: Login
-Step 4: Browse shop, add item to basket, and proceed to checkout
-	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button
-Step 5: Select item, add to basket, and proceed to checkout
-	- Step 1: Click on span
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button 'CHECK OUT'
-Step 6: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
-",Low
-5,Verify Purchase Flow with Multiple Clicks to Add Item to Basket,"Navigate to the homepage, sign in, browse the shop, add an item to the basket through multiple clicks, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
-Step 3: Login
-Step 4: Click on link 'Shop' -> Navigate to page 'shop'
-Step 5: Hover over div
-Step 6: Click on button 'Add to basket'
-Step 7: Click on span
-Step 8: Click on span
-Step 9: Select item, add to basket, and proceed to checkout
-	- Step 1: Click on span
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button 'CHECK OUT'
-Step 10: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 4: Click on link shop2 -> Navigate to page 'shop'
+Step 5: Hover over div herringbonePineTreeIndoorPlants
+Step 6: Click on button addToBasket
+Step 7: Click on span navigationButton
+Step 8: Click on button minus
+Step 9: Click on span plus
+Step 10: Click on span plus
+Step 11: Click on button minus
+Step 12: Click on button minus
+Step 13: Click on span minus
+Step 14: Click on span minusButton
+Step 15: Click on span minusButton
+Step 16: Click on input fullName
+Step 17: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",Trivial
-7,Verify Successful Purchase Flow after Sign Up,"Navigate to the homepage, sign up, login, browse the shop, add an item to the basket, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign Up' -> Navigate to page 'signup'
+4,Verify Checkout Process for Adding Stone Lotus to Basket,"Navigate to the home page, sign in, add stone lotus to the basket, proceed to checkout, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link signIn -> Navigate to page 'signin'
 Step 3: Login
-Step 4: Click on link 'Shop' -> Navigate to page 'shop'
-Step 5: Hover over div
-Step 6: Click on button 'Add to basket'
-Step 7: Click on span
-Step 8: Click on button
-Step 9: Select item, add to basket, and proceed to checkout
-	- Step 1: Click on span
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button 'CHECK OUT'
-Step 10: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 4: Click on link shop2 -> Navigate to page 'shop'
+Step 5: Hover over div herringbonePineTreeIndoorPlants
+Step 6: Click on button addToBasket
+Step 7: Click on span navigationButton
+Step 8: Click on span closeButton
+Step 9: Add stone lotus to basket and proceed to checkout
+	- Step 1: Click on span close
+	- Step 2: Hover over div wealthTreeStoneLotus
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on span navigationButton
+	- Step 5: Click on input fullName
+Step 10: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",Trivial
-8,Verify Purchase Flow with Review Order Step,"Navigate to the homepage, sign in, browse the shop, add items to the basket, review the order, proceed to checkout, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
+5,Verify Checkout Process for Adding Stone Lotus with Signup,"Navigate to the home page, sign up, add stone lotus to the basket, proceed to checkout, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link signUp -> Navigate to page 'signup'
 Step 3: Login
-Step 4: Browse shop, add item to basket, and proceed to checkout
-	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button
-Step 5: Select items, review order, and proceed to checkout
-	- Step 1: Click on image
-	- Step 2: Click on button
-	- Step 3: Click on button
-	- Step 4: Click on span
-	- Step 5: Click on span
-	- Step 6: Click on span
-	- Step 7: Click on span
-	- Step 8: Click on button 'CHECK OUT'
-Step 6: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 4: Click on link shop2 -> Navigate to page 'shop'
+Step 5: Hover over div herringbonePineTreeIndoorPlants
+Step 6: Click on button addToBasket
+Step 7: Click on span navigationButton
+Step 8: Click on button close
+Step 9: Add stone lotus to basket and proceed to checkout
+	- Step 1: Click on span close
+	- Step 2: Hover over div wealthTreeStoneLotus
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on span navigationButton
+	- Step 5: Click on input fullName
+Step 10: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",Trivial
-9,Verify Checkout Process with Sign In During Checkout,"Navigate to the homepage, go to the shop, add an item to the basket, proceed to checkout, sign in, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Shop' -> Navigate to page 'shop'
-Step 3: Hover over div
-Step 4: Click on button 'Add to basket'
-Step 5: Click on span
-Step 6: Click on button 'CHECK OUT'
-Step 7: Click on button 'Sign in to checkout' -> Navigate to page 'signin'
+7,Verify Checkout Process for Indoor Plants with Sign in,"Navigate to the shop page, select indoor plants, sign in to checkout, add plants to the basket, proceed to checkout, and complete the payment process using a credit card.","Step 1: Navigate to https://eco.aut.katalon.com/
+Step 2: Click on link shop2 -> Navigate to page 'shop'
+Step 3: Hover over div herringbonePineTreeIndoorPlants
+Step 4: Click on button addToBasket
+Step 5: Click on span navigationButton
+Step 6: Click on input fullName
+Step 7: Click on button signInToCheckout -> Navigate to page 'signin'
 Step 8: Login
-Step 9: Browse shop, add item to basket, and checkout
-	- Step 1: Click on link 'Shop' -> Navigate to page 'shop'
-	- Step 2: Hover over div
-	- Step 3: Click on button 'Add to basket'
-	- Step 4: Click on span
-	- Step 5: Click on button 'CHECK OUT'
-Step 10: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
-",Trivial
-10,Verify Purchase Flow with Multiple Items and Review Step,"Navigate to the homepage, sign in, go to the shop, add items to the basket, proceed to checkout, review the order, fill in checkout details, confirm the order, and complete the purchase.","Step 1: Navigate to https://eco.aut.katalon.com/
-Step 2: Click on link 'Sign In' -> Navigate to page 'signin'
-Step 3: Login
-Step 4: Click on link 'Shop' -> Navigate to page 'shop'
-Step 5: Hover over div
-Step 6: Click on button 'Add to basket'
-Step 7: Click on span
-Step 8: Click on div
-Step 9: Select items, review order, and proceed to checkout
-	- Step 1: Click on image
-	- Step 2: Click on button
-	- Step 3: Click on button
-	- Step 4: Click on span
-	- Step 5: Click on span
-	- Step 6: Click on span
-	- Step 7: Click on span
-	- Step 8: Click on button 'CHECK OUT'
-Step 10: Fill checkout details, confirm order, and complete purchase
-	- Step 1: Click on button 'Next Step' -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input field 'fullname'
-	- Step 3: Enter input value in input field 'email'
-	- Step 4: Enter input value in input field 'address'
-	- Step 5: Enter input value in input field
-	- Step 6: Click on header
-	- Step 7: Click on input field
-	- Step 8: Click on button 'Next Step' -> Navigate to page 'checkout/step3'
-	- Step 9: Click on div
-	- Step 10: Click on input field
-	- Step 11: Enter input value in input field 'name'
-	- Step 12: Enter input value in input field 'cardnumber'
-	- Step 13: Enter input value in input field 'ccv'
-	- Step 14: Click on button 'Confirm'
+Step 9: Add indoor plants to basket and proceed to checkout
+	- Step 1: Click on link shop2 -> Navigate to page 'shop'
+	- Step 2: Hover over div herringbonePineTreeIndoorPlants
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on span navigationButton
+	- Step 5: Click on input fullName
+Step 10: Complete checkout process with credit card payment
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
 ",Trivial
