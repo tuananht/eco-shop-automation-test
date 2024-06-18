@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link signIn -> Navigate to page 'signin'",
+        "step 3: Login",
+        "step 4: Explore indoor plants and close the page",
+        "step 5: Click on span close",
+        "step 6: Hover over div wealthTreeStoneLotus",
+        "step 7: Click on button addToBasket",
+        "step 8: Click on span navigationButton",
+        "step 9: Click on input fullName",
+        "step 10: Complete checkout process with Visa card payment"
+    ]
+}

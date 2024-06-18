@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link signUp -> Navigate to page 'signup'",
+        "step 3: Login",
+        "step 4: Click on link shop2 -> Navigate to page 'shop'",
+        "step 5: Hover over div herringbonePineTreeIndoorPlants",
+        "step 6: Click on span navigationButton"
+    ]
+}

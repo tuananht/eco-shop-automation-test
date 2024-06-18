@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link signIn -> Navigate to page 'signin'",
+        "step 3: Login -> Navigate to page 'search/*'",
+        "step 4: Hover over div productDetails",
+        "step 5: Enter input value in input searchProduct",
+        "step 6: Click on header productName",
+        "step 7: Select and add items to the basket",
+        "step 8: Complete checkout process with Visa card payment"
+    ]
+}

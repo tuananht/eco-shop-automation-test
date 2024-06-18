@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Login",
+        "step 3: Hover over div productDisplay",
+        "step 4: Click on image productCardImg -> Navigate to page 'product/*'",
+        "step 5: Click on button addToBasket",
+        "step 6: Click on div productModalDetails",
+        "step 7: Click on span navigationButton"
+    ]
+}

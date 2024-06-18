@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Click on link signIn -> Navigate to page 'signin'",
+        "step 3: Login",
+        "step 4: Explore indoor plants and close the page",
+        "step 5: Click on span plus",
+        "step 6: Click on span plus",
+        "step 7: Click on span plus",
+        "step 8: Click on button minus",
+        "step 9: Click on span minus",
+        "step 10: Click on span minus",
+        "step 11: Click on input fullName",
+        "step 12: Complete checkout process with Visa card payment"
+    ]
+}
