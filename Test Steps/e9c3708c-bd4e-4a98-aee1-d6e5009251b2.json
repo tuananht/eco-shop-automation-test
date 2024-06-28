@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com//",
+        "step 2: Click on link signIn -> Navigate to page '/signin'",
+        "step 3: Login",
+        "step 4: Browse and add indoor plants to the basket",
+        "step 5: Fill shipping and payment details to complete checkout",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
