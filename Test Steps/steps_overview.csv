@@ -1,58 +1,18 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-4,Verify Adding Product to Basket and Checkout Process,"Navigate to the homepage, login, add a product to the basket, and complete the checkout process. Verify successful completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Login -> Navigate to page '/'
-Step 3: Hover over div productDisplay
-Step 4: Click on image productCardImg -> Navigate to page 'product/*'
-Step 5: Click on button addToBasket
-Step 6: Click on span navigationButton
-Step 7: Click on input fullName -> Navigate to page ''
-Step 8: Take full page screenshot as checkpoint
-",High
-7,Verify Checkout Process with Indoor Plants Selection,"Navigate to the homepage, add indoor plants to the basket, proceed to checkout, fill shipping and payment details, and verify completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Click on link shop2 -> Navigate to page '/shop'
-Step 3: Hover over div herringbonePineTreeIndoorPlants
-Step 4: Click on button addToBasket
-Step 5: Click on span navigationButton
-Step 6: Click on input fullName
-Step 7: Click on button signInToCheckout -> Navigate to page '/signin'
-Step 8: Login
-Step 9: Browse and add indoor plants to the basket
-	- Step 1: Click on link shop2 -> Navigate to page '/shop'
-	- Step 2: Hover over div herringbonePineTreeIndoorPlants
-	- Step 3: Click on button addToBasket
-	- Step 4: Click on span navigationButton
-	- Step 5: Click on input fullName
-Step 10: Fill shipping and payment details to complete checkout
-	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input fullName
-	- Step 3: Enter input value in input emailAddress
-	- Step 4: Enter input value in input shippingAddress
-	- Step 5: Enter input value in input 09254461351
-	- Step 6: Click on header mainH5
-	- Step 7: Click on checkbox shippingOption
-	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
-	- Step 9: Click on input creditCardPayWithVisa
-	- Step 10: Click on radio creditCardPayWithVisa
-	- Step 11: Enter input value in input nameOnCard
-	- Step 12: Enter input value in input cardNumber
-	- Step 13: Enter input value in input ccv
-	- Step 14: Click on button confirm
-Step 11: Take full page screenshot as checkpoint
-",High
-8,Verify Checkout Process with Stone Lotus Addition,"Navigate to the homepage, add a stone lotus to the basket, complete the checkout process, and verify successful completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Click on link signUp -> Navigate to page '/signup'
+1,Verify Successful Checkout with Indoor Plants Selection,"Navigate to the homepage, add indoor plants to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
 Step 3: Login
 Step 4: Click on link shop2 -> Navigate to page '/shop'
-Step 5: Hover over div herringbonePineTreeIndoorPlants
-Step 6: Click on span navigationButton
-Step 7: Click on span closeButton
-Step 8: Add a stone lotus to the basket
-	- Step 1: Click on span close
-	- Step 2: Hover over div wealthTreeStoneLotus
+Step 5: Hover over div chamaedoreaElegansIndoorPlants
+Step 6: Click on header chamaedoreaElegans
+Step 7: Select size, add to basket, and proceed to checkout
+	- Step 1: Click on div selectSize
+	- Step 2: Click on div object
 	- Step 3: Click on button addToBasket
-	- Step 4: Click on span navigationButton
-	- Step 5: Click on input fullName
-Step 9: Fill shipping and payment details to complete checkout
+	- Step 4: Click on span shopping
+	- Step 5: Click on button checkOut
+	- Step 6: Click on input fullName
+Step 8: Complete checkout process with payment details
 	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input fullName
 	- Step 3: Enter input value in input emailAddress
@@ -67,43 +27,18 @@ Step 9: Fill shipping and payment details to complete checkout
 	- Step 12: Enter input value in input cardNumber
 	- Step 13: Enter input value in input ccv
 	- Step 14: Click on button confirm
-Step 10: Take full page screenshot as checkpoint
+Step 9: Take full page screenshot as checkpoint
 ",High
-1,Verify Searching and Adding Product to Basket,"Navigate to the homepage, search for a product, add it to the basket, complete the checkout process, and verify success on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login -> Navigate to page 'search/*'
-Step 4: Hover over div productDetails
-Step 5: Enter input value in input searchProduct
-Step 6: Click on button addToBasket
-Step 7: Click on span navigationButton
-Step 8: Click on input fullName
-Step 9: Fill shipping and payment details to complete checkout
-	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input fullName
-	- Step 3: Enter input value in input emailAddress
-	- Step 4: Enter input value in input shippingAddress
-	- Step 5: Enter input value in input 09254461351
-	- Step 6: Click on header mainH5
-	- Step 7: Click on checkbox shippingOption
-	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
-	- Step 9: Click on input creditCardPayWithVisa
-	- Step 10: Click on radio creditCardPayWithVisa
-	- Step 11: Enter input value in input nameOnCard
-	- Step 12: Enter input value in input cardNumber
-	- Step 13: Enter input value in input ccv
-	- Step 14: Click on button confirm
-Step 10: Take full page screenshot as checkpoint
-",High
-2,Verify Checkout Process with Indoor Plants Addition,"Navigate to the homepage, add indoor plants to the basket, complete the checkout process, and verify completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
+2,Verify Checkout Process with Indoor Plants Added,"Navigate to the homepage, add indoor plants to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
 Step 2: Click on link signIn -> Navigate to page '/signin'
 Step 3: Login
-Step 4: Browse and add indoor plants to the basket
+Step 4: Add indoor plants to basket and proceed to checkout
 	- Step 1: Click on link shop2 -> Navigate to page '/shop'
 	- Step 2: Hover over div herringbonePineTreeIndoorPlants
 	- Step 3: Click on button addToBasket
-	- Step 4: Click on span navigationButton
+	- Step 4: Click on button checkOut
 	- Step 5: Click on input fullName
-Step 5: Fill shipping and payment details to complete checkout
+Step 5: Complete checkout process with payment details
 	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input fullName
 	- Step 3: Enter input value in input emailAddress
@@ -119,23 +54,109 @@ Step 5: Fill shipping and payment details to complete checkout
 	- Step 13: Enter input value in input ccv
 	- Step 14: Click on button confirm
 Step 6: Take full page screenshot as checkpoint
-",Medium
-5,Verify Checkout Process with Multiple Plant Additions,"Navigate to the homepage, add indoor plants and a stone lotus to the basket, complete the checkout process, and verify success on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login
-Step 4: Add indoor plants to the basket and close the process
+",High
+9,Verify Checkout with Multiple Indoor Plants,"Navigate to the homepage, add multiple indoor plants to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link shop2 -> Navigate to page '/shop'
+Step 3: Hover over div herringbonePineTreeIndoorPlants
+Step 4: Click on button addToBasket
+Step 5: Click on button checkOut
+Step 6: Click on input fullName
+Step 7: Click on button signInToCheckout -> Navigate to page '/signin'
+Step 8: Login
+Step 9: Add indoor plants to basket and proceed to checkout
 	- Step 1: Click on link shop2 -> Navigate to page '/shop'
 	- Step 2: Hover over div herringbonePineTreeIndoorPlants
 	- Step 3: Click on button addToBasket
-	- Step 4: Click on span navigationButton
+	- Step 4: Click on button checkOut
+	- Step 5: Click on input fullName
+Step 10: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 11: Take full page screenshot as checkpoint
+",Medium
+7,Verify Search and Checkout Process for Product,"Navigate to the homepage, search for a product, add it to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login -> Navigate to page 'search/*'
+Step 4: Hover over div productDetails
+Step 5: Enter input value in input searchProduct
+Step 6: Click on button addToBasket
+Step 7: Click on span navigationButton
+Step 8: Click on input fullName
+Step 9: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 10: Take full page screenshot as checkpoint
+",Medium
+11,Verify Checkout Process for Specific Product,"Navigate to the homepage, select a specific product, add it to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login -> Navigate to page 'search/*'
+Step 4: Hover over div productDetails
+Step 5: Enter input value in input searchProduct
+Step 6: Click on header productName
+Step 7: Select size, add to basket, and proceed to checkout
+	- Step 1: Click on div selectSize
+	- Step 2: Click on div object
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on span shopping
+	- Step 5: Click on button checkOut
+	- Step 6: Click on input fullName
+Step 8: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 9: Take full page screenshot as checkpoint
+",Medium
+3,Verify Basket Update and Checkout Cancellation,"Navigate to the homepage, add plants to the basket, update quantities, and cancel checkout. Verify successful completion on the shop page.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Add plants to basket and close checkout without purchase
+	- Step 1: Click on link shop2 -> Navigate to page '/shop'
+	- Step 2: Hover over div herringbonePineTreeIndoorPlants
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on button checkOut
 	- Step 5: Click on button close
-Step 5: Add a stone lotus to the basket
+Step 5: Close popup, add stone lotus to basket, and proceed to checkout
 	- Step 1: Click on span close
 	- Step 2: Hover over div wealthTreeStoneLotus
 	- Step 3: Click on button addToBasket
-	- Step 4: Click on span navigationButton
+	- Step 4: Click on button checkOut
 	- Step 5: Click on input fullName
-Step 6: Fill shipping and payment details to complete checkout
+Step 6: Complete checkout process with payment details
 	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input fullName
 	- Step 3: Enter input value in input emailAddress
@@ -151,15 +172,300 @@ Step 6: Fill shipping and payment details to complete checkout
 	- Step 13: Enter input value in input ccv
 	- Step 14: Click on button confirm
 Step 7: Take full page screenshot as checkpoint
-",Medium
-11,Verify Checkout Process with Quantity Adjustments,"Navigate to the homepage, add plants to the basket, adjust quantities, complete the checkout process, and verify successful completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
+",Low
+6,Verify Popup Closure and Additional Item Checkout,"Navigate to the homepage, add plants to the basket, close popup, add another item, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
 Step 2: Click on link signIn -> Navigate to page '/signin'
 Step 3: Login
-Step 4: Add indoor plants to the basket and close the process
+Step 4: Click on link shop2 -> Navigate to page '/shop'
+Step 5: Hover over div herringbonePineTreeIndoorPlants
+Step 6: Click on button addToBasket
+Step 7: Click on button checkOut
+Step 8: Click on span closeButton
+Step 9: Close popup, add stone lotus to basket, and proceed to checkout
+	- Step 1: Click on span close
+	- Step 2: Hover over div wealthTreeStoneLotus
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on button checkOut
+	- Step 5: Click on input fullName
+Step 10: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 11: Take full page screenshot as checkpoint
+",Low
+8,Verify Popup Closure during Checkout Process,"Navigate to the homepage, add plants to the basket, close popup, add another item, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link signUp -> Navigate to page '/signup'
+Step 3: Login
+Step 4: Click on link shop2 -> Navigate to page '/shop'
+Step 5: Hover over div herringbonePineTreeIndoorPlants
+Step 6: Click on button addToBasket
+Step 7: Click on button checkOut
+Step 8: Click on button close
+Step 9: Close popup, add stone lotus to basket, and proceed to checkout
+	- Step 1: Click on span close
+	- Step 2: Hover over div wealthTreeStoneLotus
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on button checkOut
+	- Step 5: Click on input fullName
+Step 10: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 11: Take full page screenshot as checkpoint
+",Low
+22,Navigate Search and Add Items to Basket,"Navigate to the Home page, search for a product, add it to the basket, and verify the changes on the Home page.","Step 1: Navigate to /
+Step 2: Click on link shop2 -> Navigate to page '/shop'
+Step 3: Click on link logo -> Navigate to page '/'
+Step 4: Click on input searchProduct -> Navigate to page 'search/*'
+Step 5: Enter input value in input searchProduct
+Step 6: Click on div loader
+Step 7: Click on link home -> Navigate to page '/'
+Step 8: Click on input searchProduct
+Step 9: Enter input value in input searchProduct
+Step 10: Click on main content
+Step 11: Click on link logo
+Step 12: Click on link shop2 -> Navigate to page '/shop'
+Step 13: Hover over div object
+Step 14: Click on button addToBasket -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Trivial
+20,Verify Product Selection and Checkout Process,"Navigate to the homepage, select a product, add it to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Hover over div productDisplay
+Step 3: Click on header ironMagnoliaTree -> Navigate to page 'product/*'
+Step 4: Click on div selectSize
+Step 5: Click on div object
+Step 6: Click on span shopping
+Step 7: Click on button checkOut
+Step 8: Click on input fullName
+Step 9: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 10: Take full page screenshot as checkpoint
+",Trivial
+21,Navigate to PlantNow Page and Verify,"Navigate to the Home page, click on the 'PlantNow' link, and verify if the user lands on the correct page.","Step 1: Navigate to /
+Step 2: Click on link plantNow -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",Trivial
+26,Navigate View Product Details and Verify,"Navigate to the Shop page, view product details, and verify the Home page.","Step 1: Navigate to /
+Step 2: Click on link shop2 -> Navigate to page '/shop'
+Step 3: Hover over div herringbonePineTreeIndoorPlants
+Step 4: Click on div productDetails -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",Trivial
+23,Login Add Items to Basket and Complete Checkout,"Login, add items to the basket, proceed to checkout, modify quantities, enter details, complete payment, and verify the Home page.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Click on link shop2 -> Navigate to page '/shop'
+Step 5: Hover over div herringbonePineTreeIndoorPlants
+Step 6: Click on button addToBasket
+Step 7: Click on button checkOut
+Step 8: Click on div basketItemDetails
+Step 9: Click on span plus
+Step 10: Click on button minus
+Step 11: Click on button minus
+Step 12: Click on button plus
+Step 13: Click on span minusButton
+Step 14: Click on span minusButton
+Step 15: Click on span minusButton
+Step 16: Click on input fullName
+Step 17: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 18: Take full page screenshot as checkpoint
+",Trivial
+24,View Product Details and Checkout,"Navigate to a product, view details, proceed to checkout, and verify the Home page.","Step 1: Navigate to /
+Step 2: Hover over div productDisplay
+Step 3: Click on image productCardImg -> Navigate to page 'product/*'
+Step 4: Click on span shopping
+Step 5: Click on div productModalDetails
+Step 6: Click on button checkOut -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Trivial
+25,Add Items to Cart and Sign Up for Checkout,"Add items to the cart, sign up for checkout, navigate through sign-in steps, and verify the Home page.","Step 1: Navigate to /
+Step 2: Hover over div productDisplay
+Step 3: Click on image productCardImg -> Navigate to page 'product/*'
+Step 4: Click on span shopping
+Step 5: Click on span shopping
+Step 6: Click on button checkOut
+Step 7: Click on input fullName
+Step 8: Click on button signInToCheckout -> Navigate to page '/signin'
+Step 9: Click on button signUp -> Navigate to page '/signup'
+Step 10: Click on button signIn -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial
+18,Verify Product Selection and Checkout Process,"Navigate to the homepage, select a product, add it to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Hover over div productDisplay
+Step 3: Click on image productCardImg -> Navigate to page 'product/*'
+Step 4: Click on div selectSize
+Step 5: Click on div object
+Step 6: Click on span shopping
+Step 7: Click on button checkOut
+Step 8: Click on input fullName
+Step 9: Click on button continueShopping
+Step 10: Click on link signIn -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial
+19,Verify Search and Checkout Process for Specific Product,"Navigate to the homepage, search for a product, select a specific product, add it to the basket, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login -> Navigate to page 'search/*'
+Step 4: Hover over div productDetails
+Step 5: Click on header productName
+Step 6: Enter input value in input searchProduct
+Step 7: Select size, add to basket, and proceed to checkout
+	- Step 1: Click on div selectSize
+	- Step 2: Click on div object
+	- Step 3: Click on button addToBasket
+	- Step 4: Click on span shopping
+	- Step 5: Click on button checkOut
+	- Step 6: Click on input fullName
+Step 8: Complete checkout process with payment details
+	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
+	- Step 2: Enter input value in input fullName
+	- Step 3: Enter input value in input emailAddress
+	- Step 4: Enter input value in input shippingAddress
+	- Step 5: Enter input value in input 09254461351
+	- Step 6: Click on header mainH5
+	- Step 7: Click on checkbox shippingOption
+	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
+	- Step 9: Click on input creditCardPayWithVisa
+	- Step 10: Click on radio creditCardPayWithVisa
+	- Step 11: Enter input value in input nameOnCard
+	- Step 12: Enter input value in input cardNumber
+	- Step 13: Enter input value in input ccv
+	- Step 14: Click on button confirm
+Step 9: Take full page screenshot as checkpoint
+",Trivial
+14,Verify Product Display and Navigation,"Navigate to the homepage, view product display, click on a product image, and navigate through different product pages. Verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Hover over div productDisplay
+Step 3: Click on image productCardImg -> Navigate to page 'product/*'
+Step 4: Hover over div object
+Step 5: Click on header schefferaOctophylla
+Step 6: Click on link featured -> Navigate to page '/featured'
+Step 7: Click on link shop -> Navigate to page '/shop'
+Step 8: Click on link recommended -> Navigate to page '/recommended'
+Step 9: Hover over div object
+Step 10: Click on image object -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial
+17,Verify Product Selection and Navigation,"Navigate to the homepage, select a product, add it to the basket, and navigate through different product pages. Verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on link shop2 -> Navigate to page '/shop'
+Step 3: Hover over div wealthTreeStoneLotus
+Step 4: Click on p productCardBrand -> Navigate to page 'product/*'
+Step 5: Hover over div object
+Step 6: Click on header schefferaOctophylla
+Step 7: Hover over div object
+Step 8: Click on image object -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Trivial
+16,Verify Button Click and Authentication Process,"Navigate to the homepage, click on buttons, go through authentication processes, and verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on header button
+Step 3: Click on header button -> Navigate to page '/signin'
+Step 4: Click on main content
+Step 5: Click on div authUndefined
+Step 6: Click on button signInArrowRight -> Navigate to page '/'
+Step 7: Click on main content
+Step 8: Click on span button
+Step 9: Click on header button -> Navigate to page '/signin'
+Step 10: Login -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial
+15,Verify Navigation through Various Links,"Navigate to the homepage, click on various links, and navigate through different pages. Verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on div plantAtreeMakeTheWorld
+Step 3: Click on link seeAll
+Step 4: Click on link seeAll
+Step 5: Click on link shop2 -> Navigate to page '/shop'
+Step 6: Click on div productGrid
+Step 7: Click on link featured -> Navigate to page '/featured'
+Step 8: Click on link recommended -> Navigate to page '/recommended'
+Step 9: Click on link logo -> Navigate to page '/'
+Step 10: Click on link logo
+Step 11: Click on span main -> Navigate to page '/shop'
+Step 12: Click on link logo -> Navigate to page '/'
+Step 13: Click on input searchProduct
+Step 14: Click on span navigationButton
+Step 15: Click on span close
+Step 16: Click on list navigationMenuMain
+Step 17: Click on link logo
+Step 18: Click on link logo -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",Trivial
+13,Verify Navigation through Navigation Bar,Navigate to the homepage and test navigation through the navigation bar. Verify successful navigation back to the homepage.,"Step 1: Navigate to /
+Step 2: Click on nav navigation -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",Trivial
+12,Verify Signup and Login Process,"Navigate to the homepage, sign up, log in, and navigate through various signup and login processes. Verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Click on button signUp -> Navigate to page '/signup'
+Step 5: Login -> Navigate to page '/'
+Step 6: Click on span button
+Step 7: Click on header button -> Navigate to page '/signin'
+Step 8: Login
+Step 9: Click on button signUp -> Navigate to page '/signup'
+Step 10: Login -> Navigate to page '/'
+Step 11: Click on div button
+Step 12: Click on header button -> Navigate to page '/signin'
+Step 13: Click on button signUp -> Navigate to page '/signup'
+Step 14: Login -> Navigate to page '/'
+Step 15: Click on div button
+Step 16: Click on header button -> Navigate to page '/signin'
+Step 17: Click on link home -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Trivial
+10,Verify Quantity Adjustment and Checkout Process,"Navigate to the homepage, add plants to the basket, adjust quantities, proceed to checkout, and complete the payment process. Verify successful completion on the homepage.","Step 1: Navigate to /
+Step 2: Click on link signIn -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Add plants to basket and close checkout without purchase
 	- Step 1: Click on link shop2 -> Navigate to page '/shop'
 	- Step 2: Hover over div herringbonePineTreeIndoorPlants
 	- Step 3: Click on button addToBasket
-	- Step 4: Click on span navigationButton
+	- Step 4: Click on button checkOut
 	- Step 5: Click on button close
 Step 5: Click on span plus
 Step 6: Click on span plus
@@ -168,7 +474,7 @@ Step 8: Click on button minus
 Step 9: Click on span minus
 Step 10: Click on span minus
 Step 11: Click on input fullName
-Step 12: Fill shipping and payment details to complete checkout
+Step 12: Complete checkout process with payment details
 	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
 	- Step 2: Enter input value in input fullName
 	- Step 3: Enter input value in input emailAddress
@@ -184,86 +490,44 @@ Step 12: Fill shipping and payment details to complete checkout
 	- Step 13: Enter input value in input ccv
 	- Step 14: Click on button confirm
 Step 13: Take full page screenshot as checkpoint
-",Medium
-3,Verify Checkout Process with Specific Plant Selection,"Navigate to the homepage, select a specific plant, add it to the basket, complete the checkout process, and verify success on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Click on link signIn -> Navigate to page '/signin'
+",Trivial
+5,Verify Navigation and Object Display,"Navigate to the homepage, hover over an object, click on the displayed image, and verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Hover over div object
+Step 3: Click on image object -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",Trivial
+4,Verify Search and Navigation to Featured Products,"Navigate to the homepage, search for a product, navigate to featured products, and verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on link shop2 -> Navigate to page '/shop'
+Step 3: Click on input searchProduct
+Step 4: Enter input value in input searchProduct -> Navigate to page 'search/*'
+Step 5: Click on input searchProduct
+Step 6: Click on link featured -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Trivial
+27,Sign Up Login and Explore Products,"Sign up, log in, continue with Facebook, explore products, navigate through different sections, and verify the Home page.","Step 1: Navigate to /
+Step 2: Click on link signUp -> Navigate to page '/signup'
 Step 3: Login
-Step 4: Click on link shop2 -> Navigate to page '/shop'
-Step 5: Hover over div chamaedoreaElegansIndoorPlants
-Step 6: Click on header chamaedoreaElegans
-Step 7: Select an object and add to the basket
-	- Step 1: Click on div selectSize
-	- Step 2: Click on div object
-	- Step 3: Click on button addToBasket
-	- Step 4: Click on button addToBasket
-	- Step 5: Click on span navigationButton
-	- Step 6: Click on input fullName
-Step 8: Fill shipping and payment details to complete checkout
-	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input fullName
-	- Step 3: Enter input value in input emailAddress
-	- Step 4: Enter input value in input shippingAddress
-	- Step 5: Enter input value in input 09254461351
-	- Step 6: Click on header mainH5
-	- Step 7: Click on checkbox shippingOption
-	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
-	- Step 9: Click on input creditCardPayWithVisa
-	- Step 10: Click on radio creditCardPayWithVisa
-	- Step 11: Enter input value in input nameOnCard
-	- Step 12: Enter input value in input cardNumber
-	- Step 13: Enter input value in input ccv
-	- Step 14: Click on button confirm
-Step 9: Take full page screenshot as checkpoint
-",Low
-9,Verify Checkout Process with Multiple Additions,"Navigate to the homepage, add multiple products to the basket, complete the checkout process, and verify successful completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Login -> Navigate to page '/'
-Step 3: Hover over div productDisplay
-Step 4: Click on image productCardImg -> Navigate to page 'product/*'
-Step 5: Click on button addToBasket
-Step 6: Click on div productModalDetails
-Step 7: Click on span navigationButton -> Navigate to page ''
-Step 8: Take full page screenshot as checkpoint
-",Low
-10,Verify Checkout Process with Sign in and Search,"Navigate to the homepage, sign in, search for a product, add it to the basket, complete the checkout process, and verify success on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Login -> Navigate to page '/'
-Step 3: Hover over div productDisplay
-Step 4: Click on image productCardImg -> Navigate to page 'product/*'
-Step 5: Click on button addToBasket
-Step 6: Click on button addToBasket
-Step 7: Click on span navigationButton
-Step 8: Click on input fullName
-Step 9: Click on button signInToCheckout -> Navigate to page '/signin'
-Step 10: Click on button signUp -> Navigate to page '/signup'
-Step 11: Click on button signIn -> Navigate to page ''
-Step 12: Take full page screenshot as checkpoint
-",Low
-6,Verify Checkout Process with Product Search and Selection,"Navigate to the homepage, sign in, search for a product, select it, add it to the basket, complete the checkout process, and verify completion on the homepage.","Step 1: Navigate to https://eco.aut.katalon.com//
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login -> Navigate to page 'search/*'
-Step 4: Hover over div productDetails
-Step 5: Enter input value in input searchProduct
-Step 6: Click on header productName
-Step 7: Select an object and add to the basket
-	- Step 1: Click on div selectSize
-	- Step 2: Click on div object
-	- Step 3: Click on button addToBasket
-	- Step 4: Click on button addToBasket
-	- Step 5: Click on span navigationButton
-	- Step 6: Click on input fullName
-Step 8: Fill shipping and payment details to complete checkout
-	- Step 1: Click on button nextStep -> Navigate to page 'checkout/step2'
-	- Step 2: Enter input value in input fullName
-	- Step 3: Enter input value in input emailAddress
-	- Step 4: Enter input value in input shippingAddress
-	- Step 5: Enter input value in input 09254461351
-	- Step 6: Click on header mainH5
-	- Step 7: Click on checkbox shippingOption
-	- Step 8: Click on button nextStep2 -> Navigate to page 'checkout/step3'
-	- Step 9: Click on input creditCardPayWithVisa
-	- Step 10: Click on radio creditCardPayWithVisa
-	- Step 11: Enter input value in input nameOnCard
-	- Step 12: Enter input value in input cardNumber
-	- Step 13: Enter input value in input ccv
-	- Step 14: Click on button confirm
-Step 9: Take full page screenshot as checkpoint
+Step 4: Click on main content
+Step 5: Click on button continueWithFacebook
+Step 6: Click on link signIn -> Navigate to page '/signin'
+Step 7: Click on link home -> Navigate to page '/'
+Step 8: Click on link home
+Step 9: Hover over div productDisplay
+Step 10: Click on image productCardImg -> Navigate to page 'product/*'
+Step 11: Click on div loader
+Step 12: Click on image object
+Step 13: Click on image object
+Step 14: Click on image object
+Step 15: Click on image object
+Step 16: Click on image object
+Step 17: Click on image object
+Step 18: Click on image object
+Step 19: Click on image object
+Step 20: Click on image object
+Step 21: Hover over div object
+Step 22: Click on image object
+Step 23: Click on link featured -> Navigate to page '/featured'
+Step 24: Click on link recommended -> Navigate to page '/recommended'
+Step 25: Click on link home -> Navigate to page ''
+Step 26: Take full page screenshot as checkpoint
 ",Trivial
