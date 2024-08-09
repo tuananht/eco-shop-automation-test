@@ -70,25 +70,25 @@ public class completeCheckoutWithPaymentDetails {
     private static def execute_with_data_source(String datasource, int rowIndex) {
         TestData testData = findTestData(datasource)
         Map data = [:]
-        data['var_5_input_nameOnCard'] = testData.getValue('var_5_input_nameOnCard', rowIndex)
-        data['var_1_input_fullName'] = testData.getValue('var_1_input_fullName', rowIndex)
-        data['var_3_input_shippingAddress'] = testData.getValue('var_3_input_shippingAddress', rowIndex)
+        data['var_7_input_ccv'] = testData.getValue('var_7_input_ccv', rowIndex)
+        data['var_2_input_emailAddress'] = testData.getValue('var_2_input_emailAddress', rowIndex)
         data['var_6_input_cardNumber'] = testData.getValue('var_6_input_cardNumber', rowIndex)
         data['var_4_input_09254461351'] = testData.getValue('var_4_input_09254461351', rowIndex)
-        data['var_2_input_emailAddress'] = testData.getValue('var_2_input_emailAddress', rowIndex)
-        data['var_7_input_ccv'] = testData.getValue('var_7_input_ccv', rowIndex)
+        data['var_5_input_nameOnCard'] = testData.getValue('var_5_input_nameOnCard', rowIndex)
+        data['var_3_input_shippingAddress'] = testData.getValue('var_3_input_shippingAddress', rowIndex)
+        data['var_1_input_fullName'] = testData.getValue('var_1_input_fullName', rowIndex)
         execute_functional_method(data)
     }
     
     private static def execute_without_data_source() {
         Map data = [:]
-        data['var_5_input_nameOnCard'] = 'default_data'
-        data['var_1_input_fullName'] = 'default_data'
-        data['var_3_input_shippingAddress'] = 'default_data'
+        data['var_7_input_ccv'] = 'default_data'
+        data['var_2_input_emailAddress'] = 'default_data'
         data['var_6_input_cardNumber'] = 'default_data'
         data['var_4_input_09254461351'] = 'default_data'
-        data['var_2_input_emailAddress'] = 'default_data'
-        data['var_7_input_ccv'] = 'default_data'
+        data['var_5_input_nameOnCard'] = 'default_data'
+        data['var_3_input_shippingAddress'] = 'default_data'
+        data['var_1_input_fullName'] = 'default_data'
         execute_functional_method(data)
     }
     

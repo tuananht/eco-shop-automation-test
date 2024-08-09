@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link signIn -> Navigate to page '/signin'",
+        "step 3: Login -> Navigate to page 'search/*'",
+        "step 4: Hover over div productDetails",
+        "step 5: Enter input value in input searchProduct",
+        "step 6: Click on button addToBasket",
+        "step 7: Click on span navigationButton",
+        "step 8: Click on input fullName",
+        "step 9: Complete checkout process with payment details",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
