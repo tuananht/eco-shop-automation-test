@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to",
+        "step 2: Click on link signIn -> Navigate to page 'signin'",
+        "step 3: Login",
+        "step 4: Click on button signUp -> Navigate to page 'signup'",
+        "step 5: Login -> Navigate to page ''",
+        "step 6: Click on span button",
+        "step 7: Click on header button -> Navigate to page 'signin'",
+        "step 8: Login",
+        "step 9: Click on button signUp -> Navigate to page 'signup'",
+        "step 10: Login -> Navigate to page ''",
+        "step 11: Click on div button",
+        "step 12: Click on header button -> Navigate to page 'signin'",
+        "step 13: Click on button signUp -> Navigate to page 'signup'",
+        "step 14: Login -> Navigate to page ''",
+        "step 15: Click on div button",
+        "step 16: Click on header button -> Navigate to page 'signin'",
+        "step 17: Click on link home -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

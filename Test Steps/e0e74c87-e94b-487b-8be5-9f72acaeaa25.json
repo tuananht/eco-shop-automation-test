@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to",
+        "step 2: Click on header button",
+        "step 3: Click on header button -> Navigate to page 'signin'",
+        "step 4: Click on main content",
+        "step 5: Click on div authUndefined",
+        "step 6: Click on button signInArrowRight -> Navigate to page ''",
+        "step 7: Click on main content",
+        "step 8: Click on span button",
+        "step 9: Click on header button -> Navigate to page 'signin'",
+        "step 10: Login -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
