@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "BCA9186F973FE9935F49708952CCFFAD",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.addIndoorPlantToBasketAndCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

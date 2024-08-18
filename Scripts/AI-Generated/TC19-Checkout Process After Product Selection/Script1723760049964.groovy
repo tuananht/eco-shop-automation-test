@@ -54,7 +54,7 @@ WebUI.takeScreenshot(reportLocation + '/TC19/Step 5-Click on div object.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('Page_product/button_order'))
+WebUI.enhancedClick(findTestObject('null'))
 
 WebUI.takeScreenshot(reportLocation + '/TC19/Step 6-Click on span shopping.png')
 

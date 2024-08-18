@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "88BF2A7CBD3612B84BBE1C74BA6212BE",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.addStoneLotusToBasketAndProceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

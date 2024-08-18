@@ -22,7 +22,7 @@ TrueTestScripts.navigate("")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('Page_home/hyperlink_shop'))
+WebUI.enhancedClick(findTestObject('null'))
 
 WebUI.takeScreenshot(reportLocation + '/TC22/Step 2-Click on link plantNow.png')
 

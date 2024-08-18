@@ -12,28 +12,34 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object username
-     
-    /**
-     * <p></p>
-     */
-    public static Object password
-     
-    /**
-     * <p></p>
-     */
     public static Object application_domain
+     
+    /**
+     * <p></p>
+     */
+    public static Object query_params
+     
+    /**
+     * <p></p>
+     */
+    public static Object email
+     
+    /**
+     * <p></p>
+     */
+    public static Object pwd
      
 
     static {
         try {
             def selectedVariables = TestCaseMain.getGlobalVariables("default")
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
-            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
+            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
-            username = selectedVariables['username']
-            password = selectedVariables['password']
             application_domain = selectedVariables['application_domain']
+            query_params = selectedVariables['query_params']
+            email = selectedVariables['email']
+            pwd = selectedVariables['pwd']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

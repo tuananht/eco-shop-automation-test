@@ -4,8 +4,12 @@
    <name>eco-shop-automation-test</name>
    <tag></tag>
    <UUID>36b2ed2b-b3d0-4f37-860b-101760f55320</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Volumes/Data/katalon/ATG/eco-shop-automation-test/eco-shop-automation-test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
