@@ -6,29 +6,33 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-public class addIndoorPlantToBasketAndCheckout {
+public class selectSizeAndAddToBasket {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Click on link shop2 -> Navigate to page 'shop'"
+        "Step 1: Click on div selectSize"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_signin/link_shop2'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/div_selectSize'))
         
-        "Step 2: Hover over div herringbonePineTreeIndoorPlants"
+        "Step 2: Click on div object"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_shop/div_herringbonePineTreeIndoorPlants'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/div_object'))
         
         "Step 3: Click on button addToBasket"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_shop/button_addToBasket'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_addToBasket'))
         
-        "Step 4: Click on button checkOut"
+        "Step 4: Click on span shopping"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_shop/button_checkOut'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/span_shopping'))
         
-        "Step 5: Click on input fullName"
+        "Step 5: Click on button checkOut"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_shop/input_fullName'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_checkOut'))
+        
+        "Step 6: Click on input fullName"
+        
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/input_fullName'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {
