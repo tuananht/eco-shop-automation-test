@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Hover over div dynamicObject (object)",
+        "step 5: Click on image productCard (productCardImg) -> Navigate to page 'product/*'",
+        "step 6: Click on link home -> Navigate to page '/'",
+        "step 7: Hover over div dynamicObject (object3)",
+        "step 8: Click on image productCard (productCardImg2) -> Navigate to page 'product/*'",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

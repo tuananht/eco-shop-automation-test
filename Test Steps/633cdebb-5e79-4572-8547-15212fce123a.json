@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eco.aut.katalon.com/",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Click on button shopping",
+        "step 5: Click on button clearBasket",
+        "step 6: Click on div plantAtreeMessage2",
+        "step 7: Click on link signIn -> Navigate to page '/signin'",
+        "step 8: Click on button continueWithGoogle -> Navigate to page '/'",
+        "step 9: Click on image userNavImg",
+        "step 10: Click on link viewAccount -> Navigate to page '/account'",
+        "step 11: Click on div object",
+        "step 12: Click on header viewAccount -> Navigate to page '/signin'",
+        "step 13: Click on button continueWithGoogle -> Navigate to page 'admin/dashboard'",
+        "step 14: Click on header users",
+        "step 15: Click on header users",
+        "step 16: Click on header users",
+        "step 17: Click on link products -> Navigate to page 'admin/products'",
+        "step 18: Click on header users",
+        "step 19: Click on button showMoreItems",
+        "step 20: Click on header users",
+        "step 21: Click on link adminPanel -> Navigate to page 'admin/dashboard'",
+        "step 22: Click on link adminPanel",
+        "step 23: Click on link adminPanel",
+        "step 24: Click on header users",
+        "step 25: Click on link products -> Navigate to page 'admin/products'",
+        "step 26: Click on button moreFilters",
+        "step 27: Click on div object -> Navigate to page ''",
+        "step 28: Take full page screenshot as checkpoint"
+    ]
+}
