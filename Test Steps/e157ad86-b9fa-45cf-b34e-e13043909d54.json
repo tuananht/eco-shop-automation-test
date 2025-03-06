@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link Featured -> Navigate to page 'featured content page#*'",
+        "step 3: Hover over div FeaturedContent",
+        "step 4: Click on image ProductCard -> Navigate to page 'product#product/*'",
+        "step 5: Click on div SelectSize",
+        "step 6: Click on div SizeOption",
+        "step 7: Click on div ChooseColor",
+        "step 8: Click on button AddToBasket",
+        "step 9: Click on link Featured -> Navigate to page 'featured content page#*'",
+        "step 10: Hover over div FeaturedContent2",
+        "step 11: Click on image ProductDisplay -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

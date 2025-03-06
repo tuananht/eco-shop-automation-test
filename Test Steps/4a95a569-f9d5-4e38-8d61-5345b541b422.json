@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on input SearchProduct",
+        "step 3: Enter input value in input SearchProduct",
+        "step 4: Press key Enter on input SearchProduct -> Navigate to page 'search#search/*'",
+        "step 5: Click on link Featured -> Navigate to page 'featured content page#*'",
+        "step 6: Click on input SearchProduct",
+        "step 7: Click on input SearchProduct",
+        "step 8: Enter input value in input SearchProduct",
+        "step 9: Press key Enter on input SearchProduct -> Navigate to page 'search#search/*'",
+        "step 10: Hover over div SearchContent",
+        "step 11: Click on div ProductCard -> Navigate to page 'product#product/*'",
+        "step 12: Click on link SeeAll -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

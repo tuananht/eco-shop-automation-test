@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link SignIn -> Navigate to page 'signin#signin'",
+        "step 3: Login -> Navigate to page '/'",
+        "step 4: Click on div HomeButton",
+        "step 5: Click on link ViewAccount -> Navigate to page 'account#account'",
+        "step 6: Click on item WishList",
+        "step 7: Click on link Shop -> Navigate to page 'shop#shop'",
+        "step 8: Hover over div ShopContent",
+        "step 9: Click on button addToBasket (AddToBasket)",
+        "step 10: Hover over div ShopContent2",
+        "step 11: Click on button addToBasket (AddToBasket2)",
+        "step 12: Click on button ShowMoreItems",
+        "step 13: Hover over div ShopContent3",
+        "step 14: Click on image ProductImage -> Navigate to page ''",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}

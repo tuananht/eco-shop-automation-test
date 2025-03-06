@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to shop",
+        "step 2: Hover over div ShopContent4",
+        "step 3: Click on image ProductImage2",
+        "step 4: Select size and color then add item to basket",
+        "step 5: Hover over div ShopContent5",
+        "step 6: Click on image ProductImage3 -> Navigate to page 'product#product/*'",
+        "step 7: Click on div SelectSize",
+        "step 8: Click on div SizeOption2",
+        "step 9: Click on div ChooseColor",
+        "step 10: Click on button AddToBasket",
+        "step 11: Click on button Shopping2",
+        "step 12: Click on button CheckOut",
+        "step 13: Click on button ContinueShopping",
+        "step 14: Click on button Shopping2",
+        "step 15: Click on button CheckOut",
+        "step 16: Click on button SignInToCheckout -> Navigate to page 'signin#signin'",
+        "step 17: Login -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

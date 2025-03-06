@@ -1,0 +1,143 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Navigate and Add Product to Basket from Featured Content,"Navigate to the home page, view featured content, select a product, choose size and color, and add it to the basket.","Step 1: Navigate to /
+Step 2: Click on link Featured -> Navigate to page 'featured content page#*'
+Step 3: Hover over div FeaturedContent
+Step 4: Click on image ProductCard -> Navigate to page 'product#product/*'
+Step 5: Click on div SelectSize
+Step 6: Click on div SizeOption
+Step 7: Click on div ChooseColor
+Step 8: Click on button AddToBasket
+Step 9: Click on link Featured -> Navigate to page 'featured content page#*'
+Step 10: Hover over div FeaturedContent2
+Step 11: Click on image ProductDisplay -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+3,Add Multiple Products to Basket from Account and Shop,"Login, view account details, add products from the shop to the basket, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link SignIn -> Navigate to page 'signin#signin'
+Step 3: Login -> Navigate to page '/'
+Step 4: Click on div HomeButton
+Step 5: Click on link ViewAccount -> Navigate to page 'account#account'
+Step 6: Click on item WishList
+Step 7: Click on link Shop -> Navigate to page 'shop#shop'
+Step 8: Hover over div ShopContent
+Step 9: Click on button addToBasket (AddToBasket)
+Step 10: Hover over div ShopContent2
+Step 11: Click on button addToBasket (AddToBasket2)
+Step 12: Click on button ShowMoreItems
+Step 13: Hover over div ShopContent3
+Step 14: Click on image ProductImage -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",High,NEW
+4,Search and Add Recommended Product to Basket,"Navigate to recommended products, select a product, add it to the basket, and perform a product search.","Step 1: Navigate to /
+Step 2: Click on link Recommended -> Navigate to page 'recommended#recommended'
+Step 3: Hover over div RecommendedContent
+Step 4: Click on image RecommendedProduct
+Step 5: Select size and color then add item to basket
+	- Step 1: Click on div SelectSize
+	- Step 2: Click on div SizeOption3
+	- Step 3: Click on div ChooseColor
+	- Step 4: Click on button AddToBasket
+	- Step 5: Click on link BackToShop
+Step 6: Click on input SearchProduct
+Step 7: Enter input value in input SearchProduct
+Step 8: Press key Enter on input SearchProduct -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+6,Search for Products and View Featured Content,"Search for products, navigate to featured content, and verify the home page after interacting with search results.","Step 1: Navigate to /
+Step 2: Click on input SearchProduct
+Step 3: Enter input value in input SearchProduct
+Step 4: Press key Enter on input SearchProduct -> Navigate to page 'search#search/*'
+Step 5: Click on link Featured -> Navigate to page 'featured content page#*'
+Step 6: Click on input SearchProduct
+Step 7: Click on input SearchProduct
+Step 8: Enter input value in input SearchProduct
+Step 9: Press key Enter on input SearchProduct -> Navigate to page 'search#search/*'
+Step 10: Hover over div SearchContent
+Step 11: Click on div ProductCard -> Navigate to page 'product#product/*'
+Step 12: Click on link SeeAll -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",High,NEW
+2,Complete Checkout Process After Signing Up,"Sign up, login, add a product to the basket, and complete the checkout process by entering shipping and payment information.","Step 1: Navigate to /
+Step 2: Click on link SignUp -> Navigate to page 'signup#signup'
+Step 3: Login -> Navigate to page '/'
+Step 4: Hover over div HomeContent
+Step 5: Click on image homeProduct (HomeProduct) -> Navigate to page 'product#product/*'
+Step 6: Click on div SelectSize
+Step 7: Click on div SizeOption
+Step 8: Click on div ChooseColor
+Step 9: Click on button AddToBasket
+Step 10: Click on button Shopping
+Step 11: Click on button CheckOut -> Navigate to page 'step1 checkout#checkout/step1'
+Step 12: Click on button NextStep -> Navigate to page 'step2 checkout#checkout/step2'
+Step 13: Click on input FullName
+Step 14: Enter input value in input FullName
+Step 15: Click on input EmailAddress
+Step 16: Enter input value in input EmailAddress
+Step 17: Click on input ShippingAddress
+Step 18: Enter input value in input ShippingAddress
+Step 19: Click on input PhoneNumber
+Step 20: Enter input value in input PhoneNumber
+Step 21: Click on label InternationalShipping
+Step 22: Click on button NextStep -> Navigate to page 'step3 checkout#checkout/step3'
+Step 23: Click on label PaymentInfo
+Step 24: Click on button Confirm -> Navigate to page ''
+Step 25: Take full page screenshot as checkpoint
+",Medium,NEW
+5,Add Products to Basket and Checkout After Signing In,"Navigate to the shop, add multiple products to the basket, and complete the checkout process after signing in.","Step 1: Navigate to shop
+Step 2: Hover over div ShopContent4
+Step 3: Click on image ProductImage2
+Step 4: Select size and color then add item to basket
+	- Step 1: Click on div SelectSize
+	- Step 2: Click on div SizeOption3
+	- Step 3: Click on div ChooseColor
+	- Step 4: Click on button AddToBasket
+	- Step 5: Click on link BackToShop
+Step 5: Hover over div ShopContent5
+Step 6: Click on image ProductImage3 -> Navigate to page 'product#product/*'
+Step 7: Click on div SelectSize
+Step 8: Click on div SizeOption2
+Step 9: Click on div ChooseColor
+Step 10: Click on button AddToBasket
+Step 11: Click on button Shopping2
+Step 12: Click on button CheckOut
+Step 13: Click on button ContinueShopping
+Step 14: Click on button Shopping2
+Step 15: Click on button CheckOut
+Step 16: Click on button SignInToCheckout -> Navigate to page 'signin#signin'
+Step 17: Login -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Low,NEW
+7,Checkout Process with Credit Card Payment After Signing In,"Sign in, add a product to the basket, and complete the checkout process with credit card payment details.","Step 1: Navigate to /
+Step 2: Click on link SignIn2 -> Navigate to page 'signin#signin'
+Step 3: Login -> Navigate to page '/'
+Step 4: Hover over div HomeContent2
+Step 5: Click on image homeProduct (HomeProduct2) -> Navigate to page 'product#product/*'
+Step 6: Click on div SelectSize
+Step 7: Click on div SizeOption
+Step 8: Click on button AddToBasket
+Step 9: Click on button Shopping
+Step 10: Click on button Plus
+Step 11: Click on button CheckOut -> Navigate to page 'step1 checkout#checkout/step1'
+Step 12: Click on button NextStep -> Navigate to page 'step2 checkout#checkout/step2'
+Step 13: Click on input FullName
+Step 14: Enter input value in input FullName
+Step 15: Press key Tab on input FullName
+Step 16: Enter input value in input EmailAddress
+Step 17: Press key Tab on input EmailAddress
+Step 18: Press key Tab on input EmailAddress
+Step 19: Enter input value in input ShippingAddress
+Step 20: Click on input PhoneNumber
+Step 21: Enter input value in input PhoneNumber
+Step 22: Click on label InternationalShipping
+Step 23: Click on button NextStep -> Navigate to page 'step3 checkout#checkout/step3'
+Step 24: Click on label CreditCardPayment
+Step 25: Enter input value in input NameOnCard
+Step 26: Press key Tab on input NameOnCard
+Step 27: Enter input value in input CardNumber
+Step 28: Click on input ExpiryDate
+Step 29: Click on input ExpiryDate
+Step 30: Click on input CCV
+Step 31: Enter input value in input CCV
+Step 32: Click on button Confirm -> Navigate to page ''
+Step 33: Take full page screenshot as checkpoint
+",Trivial,NEW

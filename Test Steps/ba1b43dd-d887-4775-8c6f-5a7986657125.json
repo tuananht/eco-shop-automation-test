@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link Recommended -> Navigate to page 'recommended#recommended'",
+        "step 3: Hover over div RecommendedContent",
+        "step 4: Click on image RecommendedProduct",
+        "step 5: Select size and color then add item to basket",
+        "step 6: Click on input SearchProduct",
+        "step 7: Enter input value in input SearchProduct",
+        "step 8: Press key Enter on input SearchProduct -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

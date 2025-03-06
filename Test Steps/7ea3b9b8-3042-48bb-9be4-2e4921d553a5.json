@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link SignUp -> Navigate to page 'signup#signup'",
+        "step 3: Login -> Navigate to page '/'",
+        "step 4: Hover over div HomeContent",
+        "step 5: Click on image homeProduct (HomeProduct) -> Navigate to page 'product#product/*'",
+        "step 6: Click on div SelectSize",
+        "step 7: Click on div SizeOption",
+        "step 8: Click on div ChooseColor",
+        "step 9: Click on button AddToBasket",
+        "step 10: Click on button Shopping",
+        "step 11: Click on button CheckOut -> Navigate to page 'step1 checkout#checkout/step1'",
+        "step 12: Click on button NextStep -> Navigate to page 'step2 checkout#checkout/step2'",
+        "step 13: Click on input FullName",
+        "step 14: Enter input value in input FullName",
+        "step 15: Click on input EmailAddress",
+        "step 16: Enter input value in input EmailAddress",
+        "step 17: Click on input ShippingAddress",
+        "step 18: Enter input value in input ShippingAddress",
+        "step 19: Click on input PhoneNumber",
+        "step 20: Enter input value in input PhoneNumber",
+        "step 21: Click on label InternationalShipping",
+        "step 22: Click on button NextStep -> Navigate to page 'step3 checkout#checkout/step3'",
+        "step 23: Click on label PaymentInfo",
+        "step 24: Click on button Confirm -> Navigate to page ''",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}
